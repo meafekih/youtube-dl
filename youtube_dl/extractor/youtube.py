@@ -2289,7 +2289,7 @@ class YoutubeIE(YoutubeBaseInfoExtractor):
             'upload_date': unified_strdate(
                 microformat.get('uploadDate')
                 or search_meta('uploadDate')),
-            'uploader': uploader,
+            #'uploader': uploader,
             'channel_id': channel_id,
             'duration': duration,
             'view_count': int_or_none(
